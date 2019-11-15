@@ -2,7 +2,7 @@
 
 ![Image](https://drive.google.com/uc?export=view&id=1k7O7Gh3vF2kYY3qhx7NVgoUppKddbOwB)
 
-This repository contains code to accompany the paper "Producing High-fidelity Flux Fields From N-body Simulations Using Physically Motivated Neural Networks", a part of the [2019 NeurIPS workshop on Machine Learning in the Physical Sciences](https://ml4physicalsciences.github.io/). There are several files which define the network architectures, as well as scripts to train the networks, export trained models for inference, run inference on our validation dataset, and analyze the output of the model. Read below for instructions on downloading the data and running the code.
+This repository contains code to accompany the paper "[Producing High-fidelity Flux Fields From N-body Simulations Using Physically Motivated Neural Networks](https://ml4physicalsciences.github.io/files/NeurIPS_ML4PS_2019_18.pdf)", a part of the [2019 NeurIPS workshop on Machine Learning in the Physical Sciences](https://ml4physicalsciences.github.io/). There are several files which define the network architectures, as well as scripts to train the networks, export trained models for inference, run inference on our validation dataset, and analyze the output of the model. Read below for instructions on downloading the data and running the code.
 
 ### Requirements
 The code has been developed and run with the following software:
@@ -26,5 +26,8 @@ The repository contains the following code:
 * `slabpredict.py` runs inference on the validation set using a `SavedModel` created by the above script. This requires a very large amount of memory when generating predicitons for the full validation set at once, and does not fit on a GPU.
 * `analyze.ipynb` is a Jupyter notebook which loads pre-trained weights for the warping network, performs the redshift-space distortion to produce the Lya flux field in redshift space, and produces plots and analysis comparing the generated fields to the ground truth.
 
-
+### Contact
+Peter Harrington  
+Lawrence Berkeley National Laboratory  
+pharrington@lbl.gov
 

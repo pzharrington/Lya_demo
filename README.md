@@ -2,7 +2,7 @@
 
 ![Image](https://drive.google.com/uc?export=view&id=1k7O7Gh3vF2kYY3qhx7NVgoUppKddbOwB)
 
-This repository contains code to accompany the paper "[Producing High-fidelity Flux Fields From N-body Simulations Using Physically Motivated Neural Networks](https://ml4physicalsciences.github.io/files/NeurIPS_ML4PS_2019_18.pdf)", a part of the [2019 NeurIPS workshop on Machine Learning in the Physical Sciences](https://ml4physicalsciences.github.io/). There are several files which define the network architectures, as well as scripts to train the networks, export trained models for inference, run inference on our validation dataset, and analyze the output of the model. Read below for instructions on downloading the data and running the code.
+This repository contains code to accompany the paper "[Producing High-fidelity Flux Fields From N-body Simulations Using Physically Motivated Neural Networks](https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_18.pdf)", a part of the [2019 NeurIPS workshop on Machine Learning in the Physical Sciences](https://ml4physicalsciences.github.io/). There are several files which define the network architectures, as well as scripts to train the networks, export trained models for inference, run inference on our validation dataset, and analyze the output of the model. Read below for instructions on downloading the data and running the code.
 
 ### Requirements
 The code has been developed and run with the following software:
